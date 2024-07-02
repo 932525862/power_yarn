@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home_img {
+  inline-size: 100%;
+  block-size: 750px;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  filter: brightness(30%);
+}
+
+.home_text {
+  position: absolute;
+  inset-block-start: 37%;
+}
+.home_p {
+  margin-inline-start: 210px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-block-start: 20px;
+}
+
+.home_h1 {
+  margin-inline-start: 245px;
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+}
+
+.bt1 {
+  position: relative;
+  inline-size: 10.9rem;
+  block-size: 3.5rem;
+  border: 1px solid #f6c71d;
+  margin-inline-end: 2.2rem;
+}
+
+.mx-2 {
+  background-color: #f6c71d96;
+  inline-size: 180px;
+  block-size: 60px;
+  border: 2px solid #f6c71d;
+  border-radius: 0;
+  margin-block-start: 7px;
+}
+
+.mx-2:hover {
+  background-color: transparent;
+  color: #fff;
+  border: #d4a217;
+  margin-block-start: -5px;
+}
+
+.mx-1 {
+  background-color: transparent;
+  inline-size: 180px;
+  block-size: 60px;
+  border: 2px solid #f6c71d;
+  border-radius: 0;
+  margin-block-start: 7px;
+}
+.mx-1:hover {
+  background-color: transparent;
+  color: #fff;
+  border: #d4a217;
+  margin-block-start: -5px;
+}
+
+.btn-all {
+  inline-size: 500px;
+  margin-inline-start: -2px;
+  position: relative;
+  display: flex;
+  margin-inline-start: 550px;
+  margin-block-start: 50px;
+  margin-top: 30px;
+}
+
+.fdn {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}

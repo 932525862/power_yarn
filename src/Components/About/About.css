@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.asos{
+	margin-top: 50px;
+	
+}
+
+.marg{
+	margin-left: 120px;
+	position: absolute;
+	inset-block-start: 5%;
+}
+
+.marg_p{
+	
+	inset-block-start: 2%;
+}
+
+.btnmm{
+	margin-right:  700px;
+	width: 400px;
+	scroll-behavior: smooth;
+}
+
+.about_bac{
+	background-color: rgb(185, 65, 65);
+}
+
+.box{
+	width: 1200px;
+	height: 1px;
+	background-color: rgb(13, 37, 58);
+	margin-left: 170px;
+	margin-top: 50px;
+
+}

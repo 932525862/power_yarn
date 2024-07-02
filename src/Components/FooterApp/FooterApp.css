@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.footerbac{
+	background-color: rgba(23, 34, 63, 0.937);
+	width: 100%;
+	height: 150px;
+}
+
+.powers{
+  color: antiquewhite;	
+  font-size: 50px;
+}
+
+.logos{
+	width: 60px;
+	height: 60px;
+}
+
+.pawer_centr{
+	margin-left: 550px;
+	
+}
+
+.dsds{
+	margin-left: -70px;
+}

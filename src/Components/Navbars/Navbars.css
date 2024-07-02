@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .navbarbac{
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.bg-gray-900 {
+	color: rgb(0, 0, 0);
+	background-color: rgb(202, 209, 209);
+}
+.bg-gray-800{
+
+
+	background-color: rgba(255,255,255);
+}
+
+.text-gray-300 {
+	color: black;
+} */
+
+.power{
+	color: rgb(255, 255, 255);
+}
+
+.navbtn{
+	scroll-behavior: smooth;
+}
+

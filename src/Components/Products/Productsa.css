@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product_baca{
+    background-color: rgb(186, 200, 213);
+}
+
+/* Modal.css */
+.modal-overlay {
+	position: fixed;
+	inset-block-start: 0;
+	inset-inline-start: 0;
+	inset-inline-end: 0;
+	inset-block-end: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .modal-content {
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	min-inline-size: 300px;
+  }
+  
+  .modal-close {
+	position: absolute;
+	inset-block-start: 10px;
+	inset-inline-end: 10px;
+	background: none;
+	border: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+  }
+  
+  .modal-image {
+	max-inline-size: 100%;
+	block-size: auto;
+  }
+  
+  .product-container {
+	aspect-ratio: 1 / 1;
+	inline-size: 100%;
+	overflow: hidden;
+	background-color: #e5e7eb; 
+	border-radius: 0.5rem; 
+  }
+  
+  .product-image {
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: cover;
+	object-position: center;
+  }
+
+  .product_h1{
+	font-size: 49px;
+  }
+  .product_p{
+	width: 1200px;
+	font-size: 18px;
+	margin-left: 165px;
+	margin-top: 30px;
+  }
+
+
+  .bg-white{
+	margin-top: 80px;
+  }
+  

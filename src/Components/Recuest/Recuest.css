@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.csds{
+	
+}
+
+.imagr_resuset{
+	width: 700px;
+	height: 700px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+.recues_btyac{
+	background-color: rgb(239, 243, 248);
+}
+
+.butn_bac{
+	background-color: rgba(5, 23, 46, 0.889);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xodim{
+  margin-bottom: 50px;
+}
