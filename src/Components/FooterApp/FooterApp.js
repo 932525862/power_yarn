@@ -4,7 +4,7 @@ import Logo from "../../astets/navbar_img/icons8-thread-50 (2).png";
 export const FooterApp = () => {
   return (
     <div >
-      <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4 foer_wi">
+      <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4 foer_wi " id = "Footer">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div class="sm:flex sm:items-center sm:justify-between">
         
@@ -21,34 +21,34 @@ export const FooterApp = () => {
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
 			
 			<li>
-                <a href="#" class="hover:underline me-4 md:me-6">
+                <a href="#Home" class="hover:underline me-4 md:me-6">
                   Home
                 </a>
               </li>
 			 
 			  <li>
-                <a href="#" class="hover:underline me-4 md:me-6">
+                <a href="#About" class="hover:underline me-4 md:me-6">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" class="hover:underline me-4 md:me-6">
+                <a href="#Products" class="hover:underline me-4 md:me-6">
                   Products
                 </a>
               </li>
 			  
 			  <li>
-                <a href="#" class="hover:underline me-4 md:me-6">
+                <a href="#Partners" class="hover:underline me-4 md:me-6">
                   Partners
                 </a>
               </li>
               <li>
-                <a href="#" class="hover:underline me-4 md:me-6">
+                <a href="#Leave" class="hover:underline me-4 md:me-6">
 				Leave a request
                 </a>
               </li>
               <li>
-                <a href="#" class="hover:underline">
+                <a href="#Footer" class="hover:underline">
                   Contact
                 </a>
               </li>
