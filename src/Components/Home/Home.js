@@ -6,9 +6,9 @@ import Button from "react-bootstrap/Button";
 
 const Home = () => {
   return (
-    <div>
-      <div className="homei">
-        <img className="home_img" src={Homebacimg} />
+    <div className="">
+      <div className="homei ">
+        <img className="home_img " src={Homebacimg} />
       </div>
       <div className="home_text ">
         <h1 className="home_h1 text-wrap    ...">
